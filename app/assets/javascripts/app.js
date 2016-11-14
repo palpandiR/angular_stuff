@@ -4,8 +4,8 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
     .when("/", {
       templateUrl : "main.html"
     })
-    .when("/get_detail", {
-      templateUrl : "get_detail.html"
+    .when("/style_demo", {
+      templateUrl : "style_demo.html"
     })    
     .otherwise({
         redirectTo: 'public/404'
